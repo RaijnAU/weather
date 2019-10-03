@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await axios('http://api.openweathermap.org/data/2.5/weather?q=Perth%2CAustradiva&units=metric&appid=6dc9c2a99870e8a1a5ff5c72ecc15d4e');
+      const response = await axios('https://api.openweathermap.org/data/2.5/weather?q=Perth%2CAustradiva&units=metric&appid=6dc9c2a99870e8a1a5ff5c72ecc15d4e');
       setCity(response.data.name);
       setCountry(response.data.sys.country);
       setTemp(response.data.main.temp.toPrecision(3));
