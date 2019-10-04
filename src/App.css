@@ -4,11 +4,11 @@ body {
 
 .img {
   height: 90vh;
-  background-image: url('./img/perth.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/perth.jpg');
   background-size: cover;
+  box-shadow:
 }
 
-.temp,
-.city {
+.temp, .city {
   font-size: 2rem;
 }
