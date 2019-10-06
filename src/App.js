@@ -12,7 +12,7 @@ function App() {
   const [desc, setDesc] = useState('');
 
   useEffect(() => {
-    fetchData();
+    fetchData(city);
   }, [city]);
 
   const fetchData = async (city) => {
