@@ -32,8 +32,7 @@ body {
   background-size: cover;
 }
 
-.temp,
-.city {
+.temp, .city {
   font-size: 2rem;
 }
 
@@ -41,4 +40,10 @@ span {
   cursor: pointer;
   margin-left: 30px;
   margin-right: 30px
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
