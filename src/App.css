@@ -2,13 +2,48 @@ body {
   background: #333;
 }
 
-.img {
+.Perth {
   height: 90vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/perth.jpg');
   background-size: cover;
-  box-shadow:
+}
+
+.Sydney {
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/sydney.jpg');
+  background-size: cover;
+}
+
+.Melbourne {
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/melbourne.jpg');
+  background-size: cover;
+}
+
+.Brisbane {
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/brisbane.jpg');
+  background-size: cover;
+}
+
+.Adelaide {
+  height: 90vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./img/adelaide.jpg');
+  background-size: cover;
 }
 
 .temp, .city {
   font-size: 2rem;
+}
+
+span {
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 30px
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
