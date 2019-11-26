@@ -1,3 +1,3 @@
 ## Weather app
 
-To build a weather app. Continual ongoing improvements to be made.
+To build a weather app within 2 hours.
